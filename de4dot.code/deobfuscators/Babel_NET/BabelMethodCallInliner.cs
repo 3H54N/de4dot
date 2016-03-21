@@ -174,6 +174,8 @@ namespace de4dot.code.deobfuscators.Babel_NET {
 				case Code.Sub:
 				case Code.Xor:
 				case Code.Or:
+				case Code.Not:
+				case Code.Neg:
 				case Code.Nop:
 				case Code.Dup:
 				case Code.Mul:
